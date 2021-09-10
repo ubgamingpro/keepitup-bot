@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.navbar-brand img {
+    border-radius: 20px;
+}
+
+form.d-flex button {
+    background-color: rgb(121 145 246);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+form.d-flex button:hover {
+    background-color: rgb(166 168 253);
+}
+
+/* Main Head */
+
+.head {
+    padding-top: 260px;
+    color: white;
+    text-align: center;
+}
+.th {
+    color: white;
+    text-align: center;
+}
+
+.subtext {
+    padding-bottom: 330px;
+    color: rgb(255, 255, 255, .55);
+    line-height: 1.3;
+    text-align: center;
+}
+
+.links{
+    color: white;
+}
+
+.links:hover {
+    color: white;
+}
+
+.pt-10 {
+    padding-top: 20rem!important;
+}
+
+.custom-i img {
+    height: 269px;
+    width: 518px;
+    float: right;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-i h3 {
+    padding-top: 68px;
+}
+
+.custom-i p {
+    color: rgb(255, 255, 255, .55);
+    width: 40%;
+}
+.custom-i2 img {
+    height: 269px;
+    width: 518px;
+    float: right;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-i2 h3 {
+    padding-top: 68px;
+}
+
+.custom-i2 p {
+    color: rgb(255, 255, 255, .55);
+    width: 40%;
+}
+.custom-i1 img {
+    height: 270px;
+    width: 560px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-i1 h3 {
+    padding-top: 68px;
+    float: right;
+    width: 40%;
+}
+.hh {
+    text-align: center;
+    color: white;
+    float: bottom;
+    padding-bottom: 10px;
+}
+
+.custom-i1 p {
+    color: rgb(255, 255, 255, .55);
+    width: 40%;
+    float: right;
+}
+
+/* Media */
+
+@media screen and (max-width: 967px) {
+    .th {
+        color: white;
+        text-align: center;
+    }
+    .custom-i img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .pt-10 {
+        padding-top: 5rem!important;
+    }
+    .custom-i2 img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .pt-10 
+    .custom-i p {
+        text-align: center;
+        width: 100%;
+    }
+    .custom-i h3 {
+        text-align: center;
+    }
+    .custom-i2 p {
+        text-align: center;
+        width: 100%;
+    }
+    .custom-i2 h3 {
+        text-align: center;
+    }
+    .head {
+        padding-top: 260px;
+        color: white;
+        text-align: center;
+    }
+    
+    .subtext {
+        padding-bottom: 330px;
+        color: rgb(255, 255, 255, .55);
+        line-height: 1.3;
+        text-align: center;
+    }
+    
+    .links{
+        color: white;
+    }
+    
+    .links:hover {
+        color: white;
+    }
+    .custom-i1 img {
+        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .custom-i1 p {
+        text-align: center;
+        width: 100%;
+        float: right;
+    }
+    .custom-i1 h3 {
+        text-align: center;
+    }
+}
